@@ -1,0 +1,80 @@
+body {
+  margin: 40px auto;
+  max-width: 480px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0;
+
+    background-color: rgb(222, 238, 238);
+  
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+h3 {
+  text-align: center;
+}
+
+.toDoStatusWrapper {
+  display: grid;
+
+  grid-template-columns: 3fr 1fr 1fr;
+
+  margin-bottom: 2px;
+}
+
+.todoName {
+  text-justify: 'center'
+}
+
+.toDoFormWrapper {
+  display: grid;
+  grid-template-columns: 7fr 2fr;
+
+  margin-bottom: 2px;
+  margin: 30px;
+}
+
+.complete {
+  color: #c4c4c4;
+}
+
+.btnCompletion {
+  background-color: rgb(68, 68, 68);
+  border-radius: 15px;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 1px;
+}
+
+.btnDelete {
+  background-color: rgb(220, 20, 60);
+  border-color: rgb(178, 34, 34);
+  border-radius: 15px;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 1px;
+}
+
+.btn-complete {
+  background-color: #c4c4c4;
+  color: white;
+}
+
+.btn-success {
+  padding: 12px 16px;
+  background-color: green;
+}
+
+td + td {
+  margin: 3px;
+}
+
